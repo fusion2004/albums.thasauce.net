@@ -3,8 +3,9 @@
 body {
   background-color: #08080c;
   background-image: url(../img/pirateship.gif);
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% auto;
   color: #4f2b06;
   font-family: "Pixel Pirate", Gergia, "Times New Roman", serif;
   font-weight: normal;
