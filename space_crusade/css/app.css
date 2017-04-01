@@ -120,6 +120,11 @@ body {
   flex-grow: 1;
 }
 
-.track {
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.tracks li {
   margin: 19px 0;
 }
