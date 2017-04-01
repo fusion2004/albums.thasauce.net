@@ -12,6 +12,7 @@ body {
   font-size: 24px;
   font-style: normal;
   image-rendering: pixelated;
+  line-height: 1.6;
 }
 
 .main {
@@ -117,4 +118,8 @@ body {
 .center {
   background-color: #FFBF82;
   flex-grow: 1;
+}
+
+.track {
+  margin: 19px 0;
 }
