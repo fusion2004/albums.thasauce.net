@@ -1,0 +1,75 @@
+* { padding: 0; margin: 0; }
+
+body {
+  background-color: #08080c;
+  background-image: url(../img/pirateship.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Pixel Pirate", Gergia, "Times New Roman", serif;
+  font-weight: normal;
+  font-style: normal;
+  image-rendering: pixelated;
+}
+
+.parchment {
+  margin: auto;
+  max-width: 900px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left {
+  background-image: url(../img/parchment_fixed_01.gif);
+  height: 68px;
+  width: 103px;
+}
+
+.top-center {
+  background-image: url(../img/parchment_fixed_02.gif);
+  background-repeat: repeat-x;
+  height: 68px;
+  flex-grow: 1;
+}
+
+.top-right {
+  background-image: url(../img/parchment_fixed_03.gif);
+  height: 68px;
+  width: 110px;
+}
+
+.second-top-left {
+  background-image: url(../img/parchment_fixed_04.gif);
+  height: 70px;
+  width: 103px;
+}
+
+.second-top-center {
+  background-color: #FFBF82;
+  flex-grow: 1;
+}
+
+.second-top-right {
+  background-image: url(../img/parchment_fixed_06.gif);
+  height: 70px;
+  width: 110px;
+}
+
+.left {
+  background-image: url(../img/parchment_fixed_07.gif);
+  background-repeat: repeat-y;
+  width: 103px;
+}
+
+.right {
+  background-image: url(../img/parchment_fixed_09.gif);
+  background-repeat: repeat-y;
+  width: 110px;
+}
+
+.center {
+  background-color: #FFBF82;
+  flex-grow: 1;
+}
