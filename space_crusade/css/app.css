@@ -90,6 +90,7 @@ body {
 
 .right {
   background-image: url(../img/parchment_vga_final_09.gif);
+  background-position: right top;
   background-repeat: repeat-y;
   width: 110px;
 }
